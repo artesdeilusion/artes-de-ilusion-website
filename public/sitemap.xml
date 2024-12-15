@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://artesdeilusion/service/our-works</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://artesdeilusion/company</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://artesdeilusion/commercial</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://artesdeilusion/indie</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://artesdeilusion/music</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://artesdeilusion/contact</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
