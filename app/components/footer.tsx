@@ -1,5 +1,5 @@
 "use client"
-import { DesignServices, GitHub, Instagram, LinkedIn } from "@mui/icons-material";
+import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
  import Link from "next/link";
  
 

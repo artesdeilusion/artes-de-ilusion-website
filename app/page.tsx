@@ -37,7 +37,7 @@ export default function Home() {
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-      Akdeniz'in ilham veren enerjisinden beslenerek, global vizyonla etkileyici projeler üretiyoruz.  
+      Akdeniz&apos;in ilham veren enerjisinden beslenerek, global vizyonla etkileyici projeler üretiyoruz.  
 
 
 

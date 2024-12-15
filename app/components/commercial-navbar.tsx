@@ -1,20 +1,12 @@
 "use client"
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { ArrowForward, ArrowRight, Close, Menu } from '@mui/icons-material';
+import { ArrowForward, Close, Menu } from '@mui/icons-material';
  /* eslint-disable @next/next/no-img-element */
 
  
 export default function CommercialNavbar() {
-     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-    const open = Boolean(anchorEl);
-    const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-        setAnchorEl(event.currentTarget);
-    };
-    const handleClose = () => {
-        setAnchorEl(null);
-    };
- 
+   
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -69,7 +61,7 @@ export default function CommercialNavbar() {
            
            
             <div className="items-center space-x-2 flex-shrink-0  flex flex-row lg:flex">
-            {isScrolled ?  <a href='/' className='h-8 w-8 bg-black      hover:animate-spin '>   </a> : <a href='/' className='h-8   w-8 bg-white       hover:animate-spin '>   </a>}
+            {isScrolled ?  <Link href='/' className='h-8 w-8 bg-black      hover:animate-spin '>   </Link> : <Link href='/' className='h-8   w-8 bg-white       hover:animate-spin '>   </Link>}
 
                  <Link
                     rel="noopener noreferrer"

@@ -1,6 +1,6 @@
  import Image from "next/image"; 
 import MusicNavbar from "../components/music-navbar";
-import { AlbumOutlined, GraphicEq, MicNone } from "@mui/icons-material";
+import { AlbumOutlined, GraphicEq, Link, MicNone } from "@mui/icons-material";
 
 export default function Page() {
 
@@ -153,9 +153,9 @@ export default function Page() {
      </h2>
    </div>
    <div className="mt-4 inline-flex items-center justify-center mx-auto max-w-lg text-center">
-     <a
+     <Link
        className="relative px-8 py-3 text-sm text-white bg-transparent border-2 border-white hover:text-black overflow-hidden group focus:outline-none"
-       href="/"
+       href="/contact"
        role="button"
      >
        {/* Background Layer */}
@@ -163,7 +163,7 @@ export default function Page() {
 
        {/* Button Text */}
        <span className="relative z-10">ilk adımı at</span>
-     </a>
+     </Link>
    </div>
  </div>
 </div>

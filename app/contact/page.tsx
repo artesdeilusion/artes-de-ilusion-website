@@ -1,7 +1,7 @@
-import { AppsOutlined, ArrowDownward, ArrowForward, ArrowRightAlt, AutoAwesome, CurrencyBitcoinOutlined, Gamepad, Handshake, LanguageOutlined, Mood, MovieCreationOutlined, NoCrashOutlined, PanToolAltOutlined, Person, QueryStatsOutlined, RocketLaunchOutlined, SettingsSuggest, Web } from "@mui/icons-material";
- import Image from "next/image";
+  import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/navbar";
+import { ArrowForward } from "@mui/icons-material";
 
 export default function Page() {
 
