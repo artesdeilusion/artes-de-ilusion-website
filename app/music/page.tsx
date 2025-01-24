@@ -153,16 +153,16 @@ export default function Page() {
      </h2>
    </div>
    <div className="mt-4 inline-flex items-center justify-center mx-auto max-w-lg text-center">
-     <Link
+      <Link
        className="relative px-8 py-3 text-sm text-white bg-transparent border-2 border-white hover:text-black overflow-hidden group focus:outline-none"
        href="/contact"
        role="button"
      >
        {/* Background Layer */}
-       <div className="absolute inset-0 bg-white transform translate-y-full transition-transform duration-200 group-hover:translate-y-0"></div>
-
-       {/* Button Text */}
-       <span className="relative z-10">ilk adımı at</span>
+       <div className="absolute inset-0 bg-black transform translate-y-full transition-transform duration-200 group-hover:translate-y-0"></div>
+ 
+ {/* Button Text */}
+ <span className="relative z-10">selam ver!</span>
      </Link>
    </div>
  </div>

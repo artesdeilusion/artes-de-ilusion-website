@@ -18,11 +18,11 @@ export default function Home() {
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
-          src="https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" // Replace with your image path
+          src="https://images.pexels.com/photos/3228689/pexels-photo-3228689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
           alt="Background Image"
           layout="fill"
           objectFit="cover" // Makes the image cover the entire screen
-          quality={75} // Adjust quality for optimization
+          quality={50} // Adjust quality for optimization
           priority // Ensures the image loads quickly
         />
       </div>
@@ -32,12 +32,12 @@ export default function Home() {
       <div className="  text-white text-start   sm:flex    ">
     <div>
       <h1 className="text-3xl sm:text-5xl">
-      <strong className="text-red-200">Antalya</strong> merkezli,
-      <span className="block  "><strong className="text-blue-200">Dünya</strong> çapında yaratıcılık.</span>
+      Yalnızca    
+      <span className="block  "><strong className="text-yellow-300">mükemmeliyetçilerin</strong> tercihi.</span>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-      Akdeniz&apos;in ilham veren enerjisinden beslenerek, global vizyonla etkileyici projeler üretiyoruz.  
+      Bireylerin ilham veren enerjilerinden beslenerek, global vizyonla etkileyici projeler üretiyoruz.  
 
 
 
@@ -427,10 +427,10 @@ export default function Home() {
                                 </div>
                             </div>
                             <h6 className="mb-2 font-semibold leading-5">
-                            Entegre Araç ve Sistem Geliştirme
+                            Dijital Dönüşüm Danışmanlığı
                             </h6>
                             <p className="mb-3 text-xs ">
-                            İş süreçlerinizi daha verimli hale getiren özel araçlar ve sistemler inşa ediyoruz.
+                            Şirketlerin iş süreçlerini modern teknolojilerle optimize ederek verimliliklerini artırmalarına, rekabet avantajı kazanmalarına ve geleceğe hazır olmalarına yardımcı oluyoruz.  
 
 
 
@@ -456,16 +456,16 @@ export default function Home() {
         {
           text: `Artes de Ilusion, iş süreçlerimizi modernleştirerek ticari operasyonlarımızı daha verimli hale getirdi. Kullanıcı dostu arayüzü ile işimizi yönetmemize katkı sağladı.”`,
           imgSrc: "https://i.pinimg.com/550x/50/b2/6c/50b26ce6d2bc8adcf0e9a720c6fdc3f9.jpg",
-          altText: "Başak Elçin | Teksan İç ve Dış Ticaret LTD. ŞTİ.",
-          name: "Başak Elçin",
+          altText: "Başak E. | Teksan İç ve Dış Ticaret LTD. ŞTİ.",
+          name: "Başak E.",
           title: "Teksan İç ve Dış Ticaret Ltd. Şti.",
         },
         {
           text: `Artes de Ilusion ile sanatsal projelerimizi daha etkileyici bir hale getirdik. İletişimin hızlanması ve yaratıcı çözümleri ile hayallerimizdeki projeleri hayata geçirme sürecini kolaylaştırdı.”`,
           imgSrc: "https://i.pinimg.com/474x/69/19/50/691950418b1f99ef9a7c2b749786eec2.jpg",
-          altText: "Bora Korkmaz | Penguen Sanat Merkezi",
-          name: "Bora Korkmaz",
-          title: "Penguen Sanat Merkezi",
+          altText: "Ömer K.",
+          name: "Ömer K.",
+          title: "Anonim Şirketi",
         },
       ].map((testimonial, index) => (
         <div key={index} className="bg-brand-main relative group no-underline"  >

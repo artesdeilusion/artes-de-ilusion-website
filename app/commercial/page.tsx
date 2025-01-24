@@ -61,7 +61,7 @@
    <div className="flex flex-col items-center text-center text-white space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 sm:items-center">
      <span className="text-3xl  ">we want</span>
      <img className="w-20 h-20" src="/commercial/galaxy.svg" alt="heart icon" />
-     <span className="text-3xl  ">future to be close</span>
+     <span className="text-3xl  ">the future to be near</span>
 
    </div>
  </section>
@@ -110,7 +110,33 @@
    </div>
  </section>
   
+  
+ <section className="  bg-[#ffd7ef]">
+   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+     <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
+       <div className="md:col-span-1">
+         <div className="max-w-lg md:max-w-none">
+           <img src="/commercial/teamsight/teamsight-wordmark.svg" alt="" />
  
+           <p className="mt-4 text-[#300706]">
+           Teamsight uygulaması, ekiplerin iletişim, dosya paylaşımı ve görev yönetimini kolaylaştıran bir işbirliği platformudur. 
+           </p>
+ 
+         </div>
+ 
+         
+       </div>
+ 
+       <div className="md:col-span-3 sm:order-first ">
+         <img
+           src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+           className="rounded"
+           alt=""
+         />
+       </div>
+     </div>
+   </div>
+ </section>
   
  <section className="bg-white">
    <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
@@ -144,7 +170,7 @@
          
        </div>
  
-       <div className="md:col-span-3 sm:order-first">
+       <div className="md:col-span-3  ">
          <img
            src="https://images.pexels.com/photos/29602431/pexels-photo-29602431/free-photo-of-istanbul-cafe-de-kahve-ve-tablet-ile-rahat-calisma-alani.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
            className="rounded"
@@ -156,32 +182,6 @@
  </section>
   
  
- <section className="  bg-[#ffd7ef]">
-   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-     <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
-       <div className="md:col-span-1">
-         <div className="max-w-lg md:max-w-none">
-           <img src="/commercial/teamsight/teamsight-wordmark.svg" alt="" />
- 
-           <p className="mt-4 text-[#300706]">
-           Teamsight uygulaması, ekiplerin iletişim, dosya paylaşımı ve görev yönetimini kolaylaştıran bir işbirliği platformudur. 
-           </p>
- 
-         </div>
- 
-         
-       </div>
- 
-       <div className="md:col-span-3  ">
-         <img
-           src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-           className="rounded"
-           alt=""
-         />
-       </div>
-     </div>
-   </div>
- </section>
     
   <section className="bg-black h-80 relative flex items-center justify-center">
    <div className="absolute inset-0 flex items-center justify-center">

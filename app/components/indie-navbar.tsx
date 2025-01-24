@@ -50,9 +50,7 @@ export default function IndieNavbar() {
                     href="/commercial" className="inline-block py-2 px-4  hover:bg-white hover:text-black   ">{('Commercial')}   </Link>
             <Link rel="noopener noreferrer" 
                     href="/indie" className="inline-block py-2 px-4   bg-white  text-black  ">{('Indie')}   </Link>
-            <Link rel="noopener noreferrer" 
-                    href="/music" className="inline-block py-2 px-4 hover:bg-white hover:text-black    ">Müzik  </Link>
-           
+ 
                  </div>
                   </div>
         </div>

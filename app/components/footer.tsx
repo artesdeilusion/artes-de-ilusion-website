@@ -83,16 +83,7 @@ Portfolio
                                         Indie
 
                                     </Link>
-                                </li>  <li>
-                                    <Link
-                                        href="/music"
-                                        className="transition duration-200 ease-in-out  underline-animation"
-                                    >
-                                        Müzik
-
-                                    </Link>
-                                </li>
-
+                                </li> 
                             </ul>
                         </div>
 
