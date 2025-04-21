@@ -18,7 +18,7 @@ export default function Home() {
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
-          src="https://images.pexels.com/photos/3228689/pexels-photo-3228689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+          src="https://images.pexels.com/photos/31666728/pexels-photo-31666728/free-photo-of-gunesin-dogusunda-yansitici-suyla-huzurlu-gol-manzarasi.jpeg" 
           alt="Background Image"
           layout="fill"
           objectFit="cover" // Makes the image cover the entire screen
