@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="sm:mt-10 relative z-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 h-screen flex items-center">
+      <div className=" pb-20 relative z-10 mx-auto max-w-screen-xl px-4   h-screen flex items-end">
       <div className="  text-white text-start   sm:flex    ">
     <div>
       <h1 className="text-3xl sm:text-5xl">
@@ -104,7 +104,7 @@ export default function Home() {
 </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4  sticky top-0  ">
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-4  sticky top-0  dark:text-white  *:text-white ">
         {/* Left Block - Normal position */}
      <a href="https://docs.projectizmir.artesdeilusion.com/" target="_blank"> 
        <div key={1} className="bg-brand-main relative group no-underline">
@@ -170,8 +170,7 @@ export default function Home() {
       alt="Penguen Sanat | Marka Kimliği"
     />
 
-    {/* Testimonial text */}
-    <p className="text-xl   font-medium">
+     <p className="text-xl   font-medium">
       <span className="pull-double"></span>Penguen Sanat | Marka Kimliği
     </p>
 
@@ -195,12 +194,12 @@ export default function Home() {
     <img
       className="    object-cover   mb-4"
       src="/service/work/attalia-hukuk.jpg" /* Replace with the actual image source */
-      alt="Attalia Hukuk | Web Sitesi"
+      alt="Attalia Hukuk | Web Sitesi"
     />
 
     {/* Testimonial text */}
     <p className="text-xl   font-medium">
-      <span className="pull-double"></span>Attalia Hukuk | Web Sitesi
+      <span className="pull-double"></span>Attalia Hukuk | Web Sitesi
     </p>
 
     {/* Author and title */}
@@ -311,23 +310,40 @@ export default function Home() {
   </section>
  <div className="bg-black">
 
- <section className="py-24 mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8   mdlg:pt-52 mdlg:pb-34">
+ <section className="py-24 mx-auto max-w-screen-xl dark:text-white  *:text-white px-4  sm:px-6 lg:px-8   mdlg:pt-52 mdlg:pb-34">
   <div className="container flex flex-row  ">
-    <div className="lg:col-start-1 lg:col-end-7  md:col-start-2 col-start-1 col-end-13 md:col-end-12">
+   <div>
+   <div className="lg:col-start-1 lg:col-end-7  md:col-start-2 col-start-1 col-end-13 md:col-end-12">
       <h2 className="text-4xl text-text-primary     mb-4 [&_strong]:font-normal [&_strong]:text-pink-300">
       Felsefemiz:<br />
         <strong>Çözüm, Şekilden Önce Gelir</strong>
       </h2>
-      <div className="prose prose-tr:border-grey-900  ">
+      <div className="prose prose-tr:border-grey-900 max-w-4xl  ">
         <p>
         Her proje benzersizdir ve çözüm, yaratıcı fikirlerden beslenir. Artes de Ilusión, teknik engelleri kaldırarak projelerinize hayal gücü ve yenilik katıyor.
         </p>
+
       </div>
+ 
     </div>
-     
+<div className="flex mt-6">
+<a
+         className="relative   px-8 py-3 text-sm text-white bg-transparent border-2 border-white hover:text-black overflow-hidden group focus:outline-none"
+         href="/service/portfolio.pdf"
+         target="_blank"
+         role="button"
+       >
+         {/* Background Layer */}
+         <div className="absolute inset-0 bg-white transform translate-y-full transition-transform duration-200 group-hover:translate-y-0 z-0"></div>
+ 
+         {/* Button Text */}
+         <span className="relative z-10">Daha fazla</span>
+       </a>
+
+  </div>   </div>
    </div>
    
-   <div className="  py-8 mx-auto   sm:max-w-xl md:max-w-full lg:max-w-screen-xl    ">
+   <div className="  py-8 mx-auto dark:text-white  *:text-white   sm:max-w-xl md:max-w-full lg:max-w-screen-xl    ">
                 <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="p-8 border-b sm:border-r">
                         <div className="max-w-md text-center">
@@ -346,7 +362,7 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <div className="p-8 border-b lg:border-r">
+                    <div className="p-8 border-b  lg:border-r">
                         <div className="max-w-md text-center">
                         <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4   sm:w-16 sm:h-16">
                             <div className="p-4  bg-green-600 rounded-full border-white border-2">
@@ -447,7 +463,7 @@ export default function Home() {
 </section>
 
  </div>
-<section className="pt-16 pb-8 mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8   mdlg:pt-52 mdlg:pb-34">
+<section className="pt-16 pb-8 mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8     mdlg:pt-52 mdlg:pb-34">
                    <h2 className="text-4xl font-bold text-gray-900 leading-[3.25rem]   mx-auto max-w-lg text-center    ">Bizim <span className="text-pink-500">Sevgimiz</span><br />Sizin <span className="text-blue-500">Güveniniz</span></h2>
               
  <div className="container mx-auto mt-16 text-text-primary grid-container">
@@ -456,7 +472,7 @@ export default function Home() {
         {
           text: `Artes de Ilusion, iş süreçlerimizi modernleştirerek ticari operasyonlarımızı daha verimli hale getirdi. Kullanıcı dostu arayüzü ile işimizi yönetmemize katkı sağladı.”`,
           imgSrc: "https://i.pinimg.com/550x/50/b2/6c/50b26ce6d2bc8adcf0e9a720c6fdc3f9.jpg",
-          altText: "Başak E. | Teksan İç ve Dış Ticaret LTD. ŞTİ.",
+          altText: "Başak E. | Teksan İç ve Dış Ticaret LTD. ŞTİ.",
           name: "Başak E.",
           title: "Teksan İç ve Dış Ticaret Ltd. Şti.",
         },
@@ -468,7 +484,7 @@ export default function Home() {
           title: "Anonim Şirketi",
         },
       ].map((testimonial, index) => (
-        <div key={index} className="bg-brand-main relative group no-underline"  >
+        <div key={index} className="bg-brand-main light:text-black dark:text-white  *:text-white relative group no-underline"  >
           <div className="flex flex-col gap-8 p-10 justify-between border border-grey-900 font-light relative z-10 bg-black h-full overflow-hidden group-hover:rounded-br-[112px] transition-all">
             <p className="text-xl   font-medium">
               <span className="pull-double">“</span>{testimonial.text}

@@ -36,7 +36,7 @@ export default function Page() {
 </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4  sticky top-0  ">
+      <div className=" dark:text-white  *:text-white grid grid-cols-1 md:grid-cols-2 gap-4  sticky top-0  ">
         {/* Left Block - Normal position */}
      <a href="https://docs.projectizmir.artesdeilusion.com/" target="_blank"> 
        <div key={1} className="bg-brand-main relative group no-underline">

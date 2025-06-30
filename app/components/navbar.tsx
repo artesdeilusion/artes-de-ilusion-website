@@ -55,7 +55,7 @@ export default function Navbar() {
                       </div>
             </div>
             
-            <div className="max-w-screen-xl mx-auto container   flex  px-4 py-2   w-full justify-between ">
+            <div className={`max-w-screen-xl mx-auto container ${isScrolled ? "bg-white  " : "  text-white"}  flex  px-4 py-2   w-full justify-between `}>
                
                
                 <div className="items-center space-x-2 flex-shrink-0  flex flex-row lg:flex">
@@ -72,7 +72,7 @@ export default function Navbar() {
 
                 </div>
               
-                <div className="items-center space-x-5 flex-shrink-0 hidden lg:flex">
+                <div className="items-center   space-x-5 flex-shrink-0 hidden lg:flex">
 
  
                 <Link
