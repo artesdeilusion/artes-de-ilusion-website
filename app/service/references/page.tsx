@@ -1,11 +1,9 @@
 import Navbar from "@/app/components/navbar";
-import Link from "next/link";
 import React from "react";
 
 export default function ServicesPage() {
 
-    const colClasses = "py-4 px-3 text-sm text-center whitespace-nowrap";
-
+ 
   return (
     <>
       <title>Artes de Ilusion | Referanslar</title>

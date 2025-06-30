@@ -3,8 +3,7 @@ import React from "react";
 
 export default function PricesPage() {
 
-    const colClasses = "py-4 px-3 text-sm text-center whitespace-nowrap";
-
+ 
   return (
     <>
       <title>Artes de Ilusion | Fiyatlandırma</title>
@@ -79,70 +78,4 @@ Tüm hakları saklıdır. © Artes de Ilusion
     </>
   );
 }
-
-/* ------------------------------------------------------------------ */
-/* 🔧 YARDIMCI BİLEŞEN                                                   */
-/* ------------------------------------------------------------------ */
-
-interface ServiceCardProps {
-  title: string;
-  description: string;
-  imgSrc: string;
-  imgAlt: string;
-  link?: string;
-  included: string[];
-  excluded: string[];
-}
-
-function ServiceCard({
-  title,
-  description,
-  imgSrc,
-  imgAlt,
-  link,
-  included,
-  excluded,
-}: ServiceCardProps) {
-  /* Eğer link varsa img'i <a> içine sar */
-  const Image = (
-    <img
-      src={imgSrc}
-      alt={imgAlt}
-      className="h-auto w-auto max-h-36 max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-    />
-  );
-
-  return (
-    <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300 flex flex-col">
-      <div className="flex-grow">
-        <h4 className="text-xl font-semibold mb-3">{title}</h4>
-        <p className="text-gray-600 text-sm mb-4">{description}</p>
-        <div className="h-48 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg flex items-center justify-center p-6 border border-gray-200 group">
-          {link ? (
-            <a href={link} target="_blank" rel="noopener noreferrer" className="group">
-              {Image}
-            </a>
-          ) : (
-            Image
-          )}
-        </div>
-      </div>
-
-      {/* Paket içeriği */}
-      <div className="mt-4 space-y-1 text-sm">
-        <h5 className="font-semibold">Dahil Olanlar</h5>
-        <ul className="list-disc ml-5 text-gray-600 space-y-0.5">
-          {included.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-        <h5 className="font-semibold mt-2">Hariç</h5>
-        <ul className="list-disc ml-5 text-gray-600 space-y-0.5">
-          {excluded.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  );
-}
+ 
