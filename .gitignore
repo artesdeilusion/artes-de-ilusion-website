@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large files
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.psd
+*.ai
+*.sketch
+
+# Large media files (over 50MB)
+public/**/*.pdf
+public/**/*.mp4
+public/**/*.mov
+public/**/*.avi
