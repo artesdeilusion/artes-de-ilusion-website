@@ -329,7 +329,7 @@ export default function Home() {
 <div className="flex mt-6">
 <a
          className="relative   px-8 py-3 text-sm text-white bg-transparent border-2 border-white hover:text-black overflow-hidden group focus:outline-none"
-         href="/service/portfolio.pdf"
+         href="/service/portfolio_doc.pdf"
          target="_blank"
          role="button"
        >
